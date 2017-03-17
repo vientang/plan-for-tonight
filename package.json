@@ -1,0 +1,37 @@
+{
+  "name": "plan-for-tonight",
+  "version": "1.0.0",
+  "description": "[Google]: https://developers.google.com/maps/documentation/javascript/get-api-key",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vientang/plan-for-tonight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vientang/plan-for-tonight/issues"
+  },
+  "homepage": "https://github.com/vientang/plan-for-tonight#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "csvtojson": "^1.1.4",
+    "mocha": "^3.2.0",
+    "node-mocks-http": "^1.6.1",
+    "node-mongo-seeds": "^2.3.1",
+    "nodemon": "^1.11.0"
+  }
+}

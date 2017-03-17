@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="">
+    <title>Plan for Tonight</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script data-require="jquery@*" data-semver="2.1.1" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+    <h1 class="header-row">
+      Plan for Tonight
+    </h1>
+
+    <div id="app-container">
+      <div class="form-container">
+        <form id="input-form" >
+          <input id="address-search" type="text" name="address" placeholder="Enter in an address" autofocus/>
+        </form>
+      </div>
+
+      <div id="nearest-store-container">
+        <div id="nearest-store"></div>
+      </div>
+
+      <div id="map-container">
+        <div id="map"></div>        
+      <div>
+    </div>
+
+    <script src="./config/api_keys.js"></script>
+    <script src="./store_locator.js"></script>
+    <script id="google-places-api"></script>
+  </body>
+</html>
+
+

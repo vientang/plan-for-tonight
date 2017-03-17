@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/store_locations",
+	"dev": "localhost/store_locations_test",
+	"prod": "localhost/store_locations_prod"
+}

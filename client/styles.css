@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+/* BODY + HEADER */
+body {
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.header-row {
+	margin-top: 0; 
+	height: 80px;
+	background: #161a1d ;
+	text-align: center;
+	font-size: 64px;
+	color: azure;
+	padding-top: 16px;
+	padding-left: 16px;
+	margin-bottom: 30px;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#app-container {
+  text-align: center;
+}
+
+.form-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+#address-search {
+   width: 450px;
+   font-size: 16px;
+}
+
+#nearest-store-container {
+ margin-bottom: 20px;
+ font-weight: bold;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+#map-container {
+   margin-top: 25px;
+   text-align: center;
+}
+
+#map {
+ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+ margin: 15px auto;
+ height: 400px;
+ width: 600px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ padding-left: 3px;
+ font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ padding-left: 3px;
+ font-size: 16px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ padding-left: 3px;
+ font-size: 16px;
+}
+:-moz-placeholder { /* Firefox 18- */
+ padding-left: 3px;
+ font-size: 16px;
+}
